@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* 设置整个表格的样式 */
+  .beautiful-table {
+    width: 50%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+  }
+
+  /* 设置表头样式 */
+  .beautiful-table thead {
+    background-color: #4CAF50; /* 表头背景颜色 */
+    color: white; /* 表头文字颜色 */
+  }
+
+  /* 设置表头单元格样式 */
+  .beautiful-table thead th {
+    vertical-align: bottom;
+    padding: 4px;
+    border-bottom: 2px solid #ddd; /* 表头底部边框 */
+    font-weight: bold;
+  }
+
+  /* 设置表格单元格样式 */
+  .beautiful-table td, .beautiful-table th {
+    text-align: center;
+    padding: 4px;
+    border: 1px solid #ddd; /* 单元格边框 */
+  }
+
+  /* 设置表格行样式 */
+  .beautiful-table tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* 奇数行背景颜色 */
+  }
+
+  /* 设置表格行悬停效果 */
+  .beautiful-table tbody tr:hover {
+    background-color: #f1f1f1; /* 悬停行背景颜色 */
+  }
+
+  /* 设置表格底部边框 */
+  .beautiful-table tbody th,
+  .beautiful-table tbody td {
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* 设置表格阴影 */
+  .beautiful-table {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* 轻微的阴影效果 */
+  }
